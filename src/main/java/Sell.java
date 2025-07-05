@@ -21,8 +21,8 @@ public class Sell extends HttpServlet {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/sell";
-            String username = "root";
-            String dbPassword = "";
+            String username = username;
+            String dbPassword = password;
             Connection connection = DriverManager.getConnection(url, username, dbPassword);
 
             String sql = "INSERT INTO requests (itemName, itemDescription, itemPrice, contact) VALUES (?, ?, ?, ?)";
