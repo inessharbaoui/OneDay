@@ -122,11 +122,15 @@ Follow the steps below to run the project locally.
   * Monitor out-of-stock items
   * Manage content for guidelines/partnerships
 
-## Screenshots & Demo
+## Demo
 
-**Screenshots coming soon...**
 
-> Want to contribute demo images? Submit a pull request!
+https://github.com/user-attachments/assets/f2dbfd3c-af60-4169-9023-b064b8ebc3d0
+
+https://github.com/user-attachments/assets/cb96e5cf-f69f-4682-b609-309e1debf08c
+
+
+
 
 ## Roadmap
 
