@@ -36,8 +36,8 @@ public class login1 extends HttpServlet {
 
     private boolean validateLogin(String email, String password) {
         String url = "jdbc:mysql://localhost:3306/Sell";
-        String username = "root";
-        String dbPassword = "";
+        String username = username;
+        String dbPassword =password;
 
         try (Connection conn = DriverManager.getConnection(url, username, dbPassword)) {
             String sql = "SELECT * FROM admin WHERE email = ? AND password = ?";
