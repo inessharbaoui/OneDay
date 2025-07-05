@@ -53,8 +53,8 @@ public class register extends HttpServlet {
 
     private boolean insertUser(String fullName, String email, String password) {
         String url = "jdbc:mysql://localhost:3306/Sell";
-        String username = "root";
-        String dbPassword = "";
+        String username = username;
+        String dbPassword = password;
 
         try (Connection conn = DriverManager.getConnection(url, username, dbPassword)) {
             String sql = "INSERT INTO users (full_name, email, password) VALUES (?, ?, ?)";
