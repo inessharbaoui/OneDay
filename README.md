@@ -1,6 +1,6 @@
 # OneDay
 
-🛒A Java EE-based e-commerce platform where users can buy and sell products online. OneDay features a dual interface for both **buyers** and **sellers**, with admin oversight for inventory, requests, and partnerships. The system enables smooth online shopping, stock tracking, and seller product management.
+A Java EE-based e-commerce platform where users can buy and sell products online. OneDay features a dual interface for both **buyers** and **sellers**, with admin oversight for inventory, requests, and partnerships. The system enables smooth online shopping, stock tracking, and seller product management.
 
 ## Table of Contents
 
