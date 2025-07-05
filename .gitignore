@@ -1,0 +1,13 @@
+# Java / Eclipse / Maven
+*.class
+*.log
+*.war
+*.ear
+*.jar
+target/
+bin/
+.settings/
+.classpath
+.project
+.idea/
+*.iml
