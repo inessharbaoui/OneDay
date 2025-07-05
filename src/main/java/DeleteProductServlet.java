@@ -15,8 +15,8 @@ public class DeleteProductServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     private static final String URL = "jdbc:mysql://localhost:3306/sell";
-    private static final String USER = "root";
-    private static final String PASSWORD = ""; 
+    private static final String USER = username;
+    private static final String PASSWORD = password; 
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
