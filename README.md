@@ -19,7 +19,7 @@ A Java EE-based e-commerce platform where users can buy and sell products online
 
 ## About the Project
 
-**OneDay** is an online marketplace built using Java EE and deployed on the WildFly application server. It supports two major roles: sellers (who manage products, stock, and respond to requests), and buyers (who browse, add items to cart, and place orders). An admin role helps oversee the entire system, ensuring smooth operation, stock control, and partnership integration.
+**OneDay** is an online marketplace built using Java EE and deployed on the WildFly application server. It supports two major roles: sellers/admins (who manage products, stock, respond to requests, and oversee the platform), and buyers (who browse, add items to cart, and place orders). The seller role combines product management with administrative oversight for smooth platform operation.
 
 ## Features
 
@@ -29,13 +29,11 @@ A Java EE-based e-commerce platform where users can buy and sell products online
   - View order history
   - Access platform guidelines and partnerships
 
-* **Seller-Side**
+* **Seller/Admin-Side**
   - Upload and manage products
   - Track items in stock or out of stock
   - Handle buyer requests and inquiries
-
-* **Admin-Side**
-  - Monitor all sellers and buyers
+  - Monitor all registered users
   - Check out-of-stock alerts
   - Manage platform guidelines and partnerships
 
@@ -105,7 +103,7 @@ Follow the steps below to run the project locally.
    http://localhost:8080/OneDay/
    ```
 
-3. Login or navigate as buyer, seller, or admin.
+3. Login or navigate as buyer or seller/admin.
 
 ## Usage
 
@@ -115,14 +113,11 @@ Follow the steps below to run the project locally.
   * Browse items
   * Add to cart and place orders
 
-* **Sellers** can:
+* **Sellers/Admins** can:
 
   * Log in to their dashboard
   * Upload new products
   * View requests and update stock
-
-* **Admins** can:
-
   * View all registered users
   * Monitor out-of-stock items
   * Manage content for guidelines/partnerships
